@@ -1,0 +1,41 @@
+
+
+body, p, h1, h2 {
+    background-color: rgb(247, 170, 170);
+    color: rgb(44, 119, 44);
+    font-family: sans-serif;
+}
+
+ul, li {
+    display: inline-block;
+    padding: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: mintcream;
+}
+
+
+.button {
+    display: inline-block;
+    background-color: green;
+    color: mintcream;
+    min-width: 50px;
+    padding: 15px;
+    margin: 5px;
+    border-radius: 10px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.button:hover {
+    background-color: mintcream;
+    color: green;
+    transition: .2s;
+}
+
+a:hover {
+    color: green;
+    transition: .2s;
+}
