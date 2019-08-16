@@ -1,4 +1,8 @@
-
+header {
+    background-color: pink;
+    color: black;
+    padding: 20px;
+}
 
 body, p, h1, h2 {
     background-color: rgb(247, 170, 170);
