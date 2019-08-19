@@ -1,12 +1,38 @@
 header {
-    background-color: pink;
+    background-color: rgb(233, 232, 230);
     color: black;
     padding: 20px;
+    text-align: center;
+    border: 1px;
+    border-color: black;
+    border-style: solid;
+    margin: 5px;
+    border-radius: 2px;
+}
+
+div {
+    background-color: rgb(233, 232, 230);
+    color: black;
+    padding: 10px;
+    text-align: center;
+    border: 1px;
+    border-color: black;
+    border-style: solid;
+    margin: 5px;
+    border-radius: 2px;
+}
+
+footer {
+    background-color: rgb(233, 232, 230);
+    color: black;
+    padding: 10px;
+    text-align: right;
+    margin: 5px;
 }
 
 body, p, h1, h2 {
-    background-color: rgb(247, 170, 170);
-    color: rgb(44, 119, 44);
+    background-color: rgb(233, 232, 230);
+    color: black;
     font-family: sans-serif;
 }
 
@@ -17,14 +43,14 @@ ul, li {
 
 a {
     text-decoration: none;
-    color: mintcream;
+    color: black;
 }
 
 
 .button {
     display: inline-block;
-    background-color: green;
-    color: mintcream;
+    background-color: rgb(187, 216, 187);
+    color: black;
     min-width: 50px;
     padding: 15px;
     margin: 5px;
@@ -35,11 +61,7 @@ a {
 
 .button:hover {
     background-color: mintcream;
-    color: green;
+    color:black;
     transition: .2s;
 }
 
-a:hover {
-    color: green;
-    transition: .2s;
-}
